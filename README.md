@@ -3,14 +3,19 @@ Repository for CUNY Tech Prep assignments https://cunytechprep.nyc/
 
 Exercises taken from http://eloquentjavascript.net
 
-Chapter 4:
+## Chapter 4:
+======
 - The sum of a range
 - Reversing an array
 - A List
 - Deep comparison
-Chapter 5:
+
+## Chapter 5:
+======
 -	Flattening
 -	Mother-child age difference
 -	Historical life expectancy
-Chapter 13:
+
+## Chapter 13:
+======
 -	Build a table
