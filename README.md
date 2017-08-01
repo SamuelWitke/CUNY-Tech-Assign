@@ -4,13 +4,13 @@ Repository for CUNY Tech Prep assignments https://cunytechprep.nyc/
 Exercises taken from http://eloquentjavascript.net
 
 Chapter 4:
-	The sum of a range
-	Reversing an array
-	A List
-	Deep comparison
+- The sum of a range
+- Reversing an array
+- A List
+- Deep comparison
 Chapter 5:
-	Flattening
-	Mother-child age difference
-	Historical life expectancy
+-	Flattening
+-	Mother-child age difference
+-	Historical life expectancy
 Chapter 13:
-	Build a table
+-	Build a table
