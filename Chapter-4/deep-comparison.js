@@ -9,8 +9,10 @@ function deepEqual(obj1,obj2) {
 		 if (!obj2.hasOwnProperty(property)) {
 			return false;
 		 }
-		 return deepEqual(obj1[property],obj2[property]);
+		 var ans = deepEqual(obj1[property],obj2[property]);
+		 if(ans == false) return false;
 	}	
+	return ans;
 }
 
 var obj = {here: {is: "an"}, object: 2};
