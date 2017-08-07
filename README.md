@@ -3,6 +3,8 @@ Repository for CUNY Tech Prep assignments https://cunytechprep.nyc/
 
 Exercises taken from http://eloquentjavascript.net
 
+Repo available @ https://github.com/SamuelWitke/CUNY-Tech-Assign.git
+
 ## Chapter 4:
 ======
 - The sum of a range
