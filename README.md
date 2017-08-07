@@ -3,7 +3,7 @@ Repository for CUNY Tech Prep assignments https://cunytechprep.nyc/
 
 Exercises taken from http://eloquentjavascript.net
 
-Repo available @ https://github.com/SamuelWitke/CUNY-Tech-Assign.git
+Repo available @ https://github.com/CUNYTechPrep/ctp2017
 
 ## Chapter 4:
 ======
