@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <style>
+        /* Defines a cleaner look for tables */
+        table  { border-collapse: collapse; }
+        td, th { border: 1px solid black; padding: 3px 8px; }
+        th     { text-align: left; }
+        </style>
+    </head>
+    <body>
+    </body>
+    <script>
+        var MOUNTAINS = [
+        {name: "Kilimanjaro", height: 5895, country: "Tanzania"},
+        {name: "Everest", height: 8848, country: "Nepal"},
+        {name: "Mount Fuji", height: 3776, country: "Japan"},
+        {name: "Mont Blanc", height: 4808, country: "Italy/France"},
+        {name: "Vaalserberg", height: 323, country: "Netherlands"},
+        {name: "Denali", height: 6168, country: "United States"},
+        {name: "Popocatepetl", height: 5465, country: "Mexico"}
+       ];
+
+        function buildTable(data) {
+            let rows = Object.keys(data[0]);
+            console.log(rows);
+            var table = document.createElement("table");
+            // Add Titles
+            for(let i =0;i<rows.length;i++){
+                let rowName = rows[i];
+                let title = document.createTextNode(rowName);
+                let th = document.createElement('th');
+                th.appendChild(title);
+                table.appendChild(th);
+            }
+            var tr = document.createElement("tr");
+            table.appendChild(tr);
+            // Add Rest Of Data
+            for(let i=0;i<data.length;i++){
+                let row = Object.values(data[i]);
+                for(let j=0;j<row.length;j++){
+                    let item = document.createTextNode(row[j]);
+                    let td = document.createElement('td');
+                    td.appendChild(item);
+                    table.appendChild(td);
+                }
+                 var tr = document.createElement("tr");
+                table.appendChild(tr);
+            }
+
+            return table;
+        }
+
+        document.body.appendChild(buildTable(MOUNTAINS));
+    </script>
+ </html>
